@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ta na mala!</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="card">
+        <div class="content">
+            <h1 class="titulo">Ta na Mala!</h1>
+            <form class="form" data-form>
+                <label class="label" for="nome">Nome</label>
+                <input required class="input" type="text" name="nome" id="nome">
+                <label class="label" for="quantidade">Quantidade</label>
+                <input required class="input" type="number" name="quantidade" id="quantidade">
+                <input type="submit" value="Adicionar" class="button">
+            </form>
+        </div>
+
+        <ul class="list" data-lista></ul>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
